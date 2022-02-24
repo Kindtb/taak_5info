@@ -33,5 +33,6 @@ if ($continue) {
         <h1>Proficiat</h1>
         <p>Dit is je hash code: <?php echo $hash; ?></p>
     <?php endif; ?>
+    <p>klik <a href="index.html">hier</a> om terug te keren.
 </body>
 </html>
