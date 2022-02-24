@@ -21,7 +21,7 @@ if ($continue) {
     } else {
         $hash = md5(strtolower($content));
     }
-    if ($content != $username) {
+    if ($continue && $content != $username) {
         $errors[] = "Het bestand ".$filename." bestaat maar je hebt niet de juiste gebruikersnaam ingevuld";
     }
 }
